@@ -1,0 +1,20 @@
+Tempo total: 4 horas
+
+# introducao
+## sobre nos
+## sobre machine learning
+## sobre redes neurais
+## sobre python
+## sobre tensorflow
+
+# redes neurais
+## aprendizagem supervisionada
+## aprendizagem nao supervisionada
+## aprendizagem semi
+
+## funcionamento de um perceptron
+## mlp
+## retropropagacao
+## softmax
+## redes convolucionais
+
