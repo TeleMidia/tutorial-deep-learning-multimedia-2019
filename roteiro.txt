@@ -8,11 +8,37 @@ Tempo total: 4 horas
 ## sobre tensorflow
 
 # redes neurais
-## aprendizagem supervisionada
-## aprendizagem nao supervisionada
-## aprendizagem semi
+## tipos de aprendizagem
+### aprendizagem supervisionada
+### aprendizagem nao supervisionada
+### aprendizagem semisupervisionada
+
+## arquiteturas consolidadas
+### lstm
+### convolucional
+### autoencoder
+### (...)
 
 ## funcionamento de um perceptron
+### input
+### output
+### erro
+### update dos pesos
+
+## calculos de erro
+### ...
+
+## datasets
+### tipos de codificacao de um dataset
+#### one hot
+#### valor normalizado
+#### etc
+
+### datasets famosos
+#### mnist
+#### flores
+#### imagenet
+
 ## mlp
 ## retropropagacao
 ## softmax
