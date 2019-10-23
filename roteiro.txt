@@ -1,8 +1,10 @@
-Tempo total: 4 horas
+Tempo total: 3.5 horas - PoseEstimation
 
 # introducao
-## sobre nos
+## sobre nos / puc / telemidia
 ## sobre machine learning
+### metodos
+
 ## sobre redes neurais
 ## sobre python
 ## sobre tensorflow
@@ -10,8 +12,11 @@ Tempo total: 4 horas
 # redes neurais
 ## tipos de aprendizagem
 ### aprendizagem supervisionada
+#### exemplos
 ### aprendizagem nao supervisionada
+#### exemplos
 ### aprendizagem semisupervisionada
+#### exemplos
 
 ## arquiteturas consolidadas
 ### lstm
@@ -44,3 +49,8 @@ Tempo total: 4 horas
 ## softmax
 ## redes convolucionais
 
+## metodos de analise de video
+### frame to frame
+### (...)
+
+## aplicacoes de analise de video
