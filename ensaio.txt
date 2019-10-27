@@ -1,0 +1,67 @@
+## PUC LAB #########################
+
+## MACHINE LEARNING ################
+
+## MNIST ###########################
+
+## FLORES ##########################
+
+## IMAGENET ########################
+
+## APRENSIZAGEM SUPERVISIONADA #####
+
+## APRENSIZAGEM NAO SUPERVISIONADA #
+
+## KNN #############################
+
+## SVM #############################
+
+## MLP #############################
+
+## KMEANS ##########################
+
+## AVALIACOES ######################
+
+## CROSS VALIDATION ################
+
+## RECALL ##########################
+
+## F1-Score ########################
+
+## PRECISION #######################
+
+## PYTHON ##########################
+
+## TENSORFLOW ######################
+
+## REDES NEURAIS ###################
+
+## FUNCIONAMENTO DE UM PERCEPTRON ##
+Rosenblatt 1957
+inputs x1, x2 multiplicados cada um por um peso w1 e w1 que geram um produto escalar y
+y = x_1 w_1 + x_2 w_2 + ... + x_n w_n
+sendo y = x1 w1 + x2 w1 + c
+
+falar sobre inputs em matriz e saida em matriz
+falar sobre a necessidade de funcoes de ativacao ( manter os valores num intervalo especifico)
+falar sobre a necessidade do bias (o mesmo papel do C na equacao da reta, serve para mover o separador e nao apenas rotacionar)
+
+essa saída passa por uma funcao de ativacao(no modelo classico usa-se a Step) gerando de fato o output
+out(x) = ativ(w^t x)
+^ explicar o ^t
+
+caso se considere o bias(constante 1) na entrada:
+out(x) = ativ(w^t x + b)
+
+Para predição de multiplas classes, estes neuronios se organizam paralelamente formando um layer, ou camada. E para determinar a classe predita basta achar o maior valor entre a saida de cada neuronio;  podendo usar a funcao argmax()
+
+-- update dos pesos
+
+# PROBLEMAS LINEARMENTE SEPARAVEIS #
+mostrar imagens
+falar que as cores de pontos sao as classes e as posicoes(x e y) são os inputs, em caso de 2 dimensoes
+falar como se move/rotaciona a reta
+
+
+# MULTIPLE LAYER PERCEPTRON ########
+Possui estrutura de camadas, onde cada camada possui varios perceptrons em paralelo, normalmente cada perceptron de uma camada n, se conecta com todos da camada seguinte (chamamos nesse caso de fully connected), quando este possui mais de duas camada interna, chama-se de "Profunda"
