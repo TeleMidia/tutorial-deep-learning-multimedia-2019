@@ -126,14 +126,8 @@ class Inference():
 		hm = np.sum(hg[0], axis = 2)
 		hm = np.repeat(np.expand_dims(hm, axis = 2), 3, axis = 2)
 		hm = cv2.resize(hm, (256,256))
-		hm = (img / 255) + hm*500
-		r,g,b = cv2.split(hm)
-		b = np.zeros(shape = b.shape)
-		g = np.zeros(shape = g.shape)
-		hm = cv2.merge([r,g,b])
-		img = img + hm
-		img = img.astype('float32')
-		return img
+		hm = (img / 255) + hm*200 #
+		return hm
 
 	# ------------------------- Joint Prediction -------------------------------
 	
